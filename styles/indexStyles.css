@@ -43,6 +43,52 @@
 
 }
 
+.searchImage {
+
+  height: 20px;
+  padding-top: 3px;
+  padding-bottom: 2.5px;
+  padding-right: 4px;
+  padding-left: 4px;
+  border: 4px solid #07020D;
+  background-color: rgba(38,33,44,0.7);
+  cursor: pointer;
+
+}
+
+.searchBar {
+
+  margin-right: 32%;
+  width: 500px;
+  font-size: 16px;
+  padding-left: 5px;
+  background-color: rgba(38,33,44,0.7);
+  border: none;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+}
+
+.searchBar:hover {
+
+  background-color: rgba(38,33,44,1);
+
+}
+
+.searchBar:focus {
+
+  outline: none;
+  background-color: rgba(38,33,44,1);
+
+}
+
+.searchBar:hover {
+
+  .searchImage background-color: rgba(38,33,44,1);
+
+}
+
 li, a, .profileButton {
 
   font-family: 'Cairo', sans-serif;
@@ -89,7 +135,7 @@ li, a, .profileButton {
 }
 
 .nav__links li a:hover {
-  color: #d89100;
+  color: #5DB7DE;
 }
 
 .profileButton button:hover {
@@ -104,5 +150,50 @@ li, a, .profileButton {
   width: 10%;
   height: 900px;
   display: inline-block;
+  padding-top: 20px;
+
+}
+
+.sidePanel .sideNav__links {
+
+  position: relative;
+  width: 70%;
+  margin: 0px auto;
+  background-color: rgba(38,33,44,0.7);
+  text-align: right;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+.sideNav__links li a {
+
+  padding: 2px;
+  color: white;
+
+}
+
+.sideNav__links li {
+
+  position: relative;
+  width: 120%;
+  right: 40px;
+  border: 1px solid #07020D;
+  border-bottom: 3px solid #07020D;
+
+}
+
+.sideNav__links li:hover {
+
+  width: 115%;
+  background-color: rgba(38,33,44,1);
+  border-right: 4px solid #5DB7DE;
+  color: #716A5C;
+
+}
+
+.sideNav__links li:hover a {
+
+  color: #5DB7DE;
 
 }

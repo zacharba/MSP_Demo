@@ -1,89 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap');
 
-* {
+.navBar {
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: #07020D;
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #dcddde;
+
+  align-items: center;
+
+
 }
 
- .mainName {
-   background-color: #272726;
-   font-family: 'Cairo', sans-serif;
-   font-weight: 900;
-   font-size: 50px;
-   color: #d1e5e1;
-   margin-right: 600px;
-   cursor: pointer;
- }
+.logoText {
 
- .mainName span{
-   background-color: #272726;
-   color: #5ea193;
- }
+  font-family: 'Cairo', sans-serif;
+  padding-left: 15px;
+  margin-right: auto;
+  font-size: 30px;
+  color: #F1E9DB;
+  cursor: pointer;
 
- li, a, button {
+}
+
+.logoText span {
+
+  color: #5DB7DE;
+
+}
+
+.logoImage {
+
+  max-width: 40%;
+  height: 40%;
+  padding-left: 10px;
+  cursor: pointer;
+
+}
+
+li, a, .profileButton {
+
   font-family: 'Cairo', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  color: #d1e5e1;
+  font-size: 15px;
+
+  display: inline-block;
   text-decoration: none;
-}
-
-.navMenu {
-  background-color: #272726;
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding: 20px 10%;
+  padding: 0px 10px;
+
+  color: white;
+
 }
 
-.logo {
-  padding: 0px;
-  width: 5%;
-  height: 5%;
-  cursor: pointer;
-  margin-right: auto;
-  background-color: #272726
+.profileButton{
+
+  padding: 0px 20px;
+
 }
 
 .nav__links {
-  list-style: none;
-  background-color: #272726;
-}
 
-.nav__links li {
-  display: inline-block;
-  padding: 0px 20px;
-  background-color: #272726;
+  list-style: none;
+
 }
 
 .nav__links li a {
+
+  display: inline-block;
+  padding: 0px 5px;
   transition: all 0.3s ease 0s;
-  background-color: #272726;
+
+}
+
+.profileButton button {
+
+  background-color: rgba(93, 183, 222,1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
 }
 
 .nav__links li a:hover {
-  color: #2a4842;
+  color: #d89100;
 }
 
-.cta {
-  background-color: #272726
+.profileButton button:hover {
+
+  background-color: rgba(93, 183, 222, 0.7);
+
 }
 
-button {
-  color: #2a4842;
-  margin-left: 20px;
-  padding: 5px 15px;
-  background-color: rgba(94, 161, 147, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
+.sidePanel {
 
-button:hover {
-  background-color: rgba(94, 161, 147, 0.6);
-  color: #d1e5e1;
+  background-color: #07020D;
+  width: 10%;
+  height: 900px;
+  display: inline-block;
+
 }

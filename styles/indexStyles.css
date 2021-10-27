@@ -70,8 +70,7 @@ body {
   background-color: rgba(38,33,44,0.7);
   border: none;
   color: white;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   transition: all 0.3s ease 0s;
 
 }
@@ -168,7 +167,7 @@ li, a, .profileButton {
   background-color: rgba(38,33,44,0.7);
   text-align: right;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: all 0.1s ease 0s;
 
 }
 
@@ -206,13 +205,13 @@ li, a, .profileButton {
   border-top: none;
   border-bottom: 0px;
   color: #716A5C;
-  transition: all 0.3s ease 0s;
+  transition: all 0.1s ease 0s;
 
 }
 
 .sideNav__links li:hover a {
 
   color: #5DB7DE;
-  transition: all 0.3s ease 0s;
+  transition: all 0.1s ease 0s;
 
 }

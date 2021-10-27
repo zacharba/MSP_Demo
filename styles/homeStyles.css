@@ -160,6 +160,23 @@ li, a, .profileButton {
 
 }
 
+.sidePanel .pageLink {
+
+  width: 115%;
+  background-color: rgba(38,33,44,1);
+  border-right: 4px solid #5DB7DE;
+  border-top: none;
+  border-bottom: 0px;
+  color: #716A5C;
+
+}
+
+.sidePanel .pageLink a {
+
+  color: #5DB7DE;
+
+}
+
 .sidePanel .sideNav__links {
 
   position: relative;
@@ -174,17 +191,9 @@ li, a, .profileButton {
 
 .sideNav__links li a {
 
-  display: inline-block;
   padding: 2px;
   padding-right: 3px;
   color: white;
-
-}
-
-.sideNav__links a {
-
-  display: block;
-  width: 150px;
 
 }
 
